@@ -1,0 +1,7 @@
+{
+  "Rules": [
+    {"ID": "expire-large-after-30-days", "Status": "Enabled", "Filter": {"Prefix": "large/"}, "Expiration": {"Days": 30}},
+    {"ID": "delete-noncurrent-versions", "Status": "Enabled", "Filter": {"Prefix": ""}, "NoncurrentVersionExpiration": {"NoncurrentDays": 7}},
+    {"ID": "abort-incomplete-multipart", "Status": "Enabled", "Filter": {"Prefix": ""}, "AbortIncompleteMultipartUpload": {"DaysAfterInitiation": 7}}
+  ]
+}
