@@ -1,0 +1,4 @@
+*.duckdb
+init.sql
+*.csv
+*.parquet
